@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
     }
 
+//Random comment//
+
     void FixedUpdate ()
     {
         float moveHorizontal = Input.GetAxis ("Horizontal");
